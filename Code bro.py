@@ -1,3 +1,4 @@
+import time
 #slicing = creating a substring by extracting elements from another string.
 #   indexing[] or slice()
 
@@ -120,4 +121,28 @@
 # print(x)
 
 #keyword arguments
+
+#for loop
+
+# for i in range(50,100,2):
+#     print(i+2)
+#
+# for seconds in range(10,0, -1):
+#     print(seconds)
+#     time.sleep(1)
+# print("Happy new year")
+
+#nested loop = the inner loop will finish all of it's iterations before.
+
+rows = int(input("enter rows: "))
+colums = int(input("enter rows: "))
+symbol = input("Enter a symbol to use: ")
+
+for i in range(rows):
+    for j in range(colums):
+        print(symbol, end="")
+    print()
+
+
+
 
