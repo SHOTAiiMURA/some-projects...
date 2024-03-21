@@ -1,0 +1,370 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Your Tasks",
+        "weight": "bold",
+        "color": "#1DB446",
+        "size": "sm"
+      },
+      {
+        "type": "text",
+        "text": "Task name",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md",
+        "align": "center"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "sm",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "In Progress",
+                    "margin": "xl",
+                    "size": "sm",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "High Priority",
+                    "margin": "xl",
+                    "size": "sm",
+                    "align": "center"
+                  }
+                ]
+              }
+            ],
+            "margin": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1 hour 15 minutes Left",
+                "size": "sm",
+                "color": "#555555",
+                "align": "center"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "height": "1px",
+                    "backgroundColor": "#aaaaaa",
+                    "offsetTop": "7px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "backgroundColor": "#00c300",
+                    "height": "3px",
+                    "width": "80%",
+                    "position": "absolute",
+                    "offsetTop": "6px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "10px",
+                        "height": "10px",
+                        "backgroundColor": "#00c300",
+                        "cornerRadius": "5px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "10px",
+                        "height": "10px",
+                        "backgroundColor": "#00c300",
+                        "cornerRadius": "5px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "10px",
+                        "height": "10px",
+                        "backgroundColor": "#00c300",
+                        "cornerRadius": "5px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "10px",
+                        "height": "10px",
+                        "backgroundColor": "#00c300",
+                        "cornerRadius": "5px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "14px",
+                        "height": "14px",
+                        "backgroundColor": "#00e600",
+                        "cornerRadius": "7px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [],
+                        "width": "10px",
+                        "height": "10px",
+                        "backgroundColor": "#aaaaaa",
+                        "cornerRadius": "5px"
+                      }
+                    ],
+                    "position": "absolute",
+                    "width": "100%",
+                    "justifyContent": "space-between",
+                    "alignItems": "center"
+                  }
+                ],
+                "height": "14px"
+              }
+            ],
+            "spacing": "lg"
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "xxl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Start",
+                "size": "lg",
+                "color": "#555555",
+                "align": "center"
+              }
+            ],
+            "backgroundColor": "#00c300",
+            "paddingAll": "md",
+            "cornerRadius": "xxl",
+            "action": {
+              "type": "postback",
+              "label": "Start task",
+              "data": "Start=user=task",
+              "displayText": "Start"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Extend Time",
+                "size": "sm"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "20 minutes",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "extend 20minutes",
+                  "data": "star=task=more20m",
+                  "displayText": "Extend 20 minutes"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "40 minutes",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "Extend 40 minutes",
+                  "data": "start=extend=40m",
+                  "displayText": "Extend 40 minutes"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1 hour",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "Extend 1 hour",
+                  "data": "start=extend=1h",
+                  "displayText": "Extend 1 hour"
+                }
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "2 hours",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "Extend 2 hours",
+                  "data": "Start=extend=2hours",
+                  "displayText": "Extend 2 hours"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Tomorrow",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "Extend time",
+                  "data": "Extend=due=bytmmrw",
+                  "displayText": "Extend due by tomorrow"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Next Week",
+                    "align": "center",
+                    "size": "xs"
+                  }
+                ],
+                "action": {
+                  "type": "postback",
+                  "label": "Extend due by nxt week",
+                  "data": "extend=due=nextw",
+                  "displayText": "Extend due by next week"
+                }
+              }
+            ],
+            "margin": "lg"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Created Today 15:00",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "Posted Today",
+            "color": "#aaaaaa",
+            "size": "xs",
+            "align": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
