@@ -129,7 +129,9 @@
           {
             "type": "text",
             "text": "Duration + Due",
-            "align": "center"
+            "align": "center",
+            "size": "lg",
+            "weight": "bold"
           }
         ],
         "backgroundColor": "#D3D3D3",
@@ -151,7 +153,9 @@
           {
             "type": "text",
             "text": "Duration",
-            "align": "center"
+            "align": "center",
+            "size": "lg",
+            "weight": "bold"
           }
         ],
         "backgroundColor": "#D3D3D3",
@@ -173,7 +177,9 @@
           {
             "type": "text",
             "text": "Start + End",
-            "align": "center"
+            "align": "center",
+            "size": "lg",
+            "weight": "bold"
           }
         ],
         "paddingTop": "md",
