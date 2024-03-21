@@ -137,7 +137,13 @@
               }
             ],
             "backgroundColor": "#FF5733",
-            "cornerRadius": "xxl"
+            "cornerRadius": "xxl",
+            "action": {
+              "type": "postback",
+              "label": "choose priority",
+              "data": "high=priority=user",
+              "displayText": "High Priority"
+            }
           },
           {
             "type": "box",
@@ -150,7 +156,13 @@
               }
             ],
             "backgroundColor": "#33A9FF",
-            "cornerRadius": "xxl"
+            "cornerRadius": "xxl",
+            "action": {
+              "type": "postback",
+              "label": "Choose priority",
+              "data": "Choose=medium=priority",
+              "displayText": "Medium Priority"
+            }
           },
           {
             "type": "box",
@@ -158,12 +170,18 @@
             "contents": [
               {
                 "type": "text",
-                "text": "Small",
+                "text": "Low",
                 "align": "center"
               }
             ],
             "backgroundColor": "#3AFF33",
-            "cornerRadius": "xxl"
+            "cornerRadius": "xxl",
+            "action": {
+              "type": "postback",
+              "label": "choose priority",
+              "data": "Choose=low=priority",
+              "displayText": "Low Priority"
+            }
           }
         ]
       }
