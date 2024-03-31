@@ -133,15 +133,51 @@ import time
 # print("Happy new year")
 
 #nested loop = the inner loop will finish all of it's iterations before.
+#
+# rows = int(input("enter rows: "))
+# colums = int(input("enter rows: "))
+# symbol = input("Enter a symbol to use: ")
+#
+# for i in range(rows):
+#     for j in range(colums):
+#         print(symbol, end="")
+#     print()
 
-rows = int(input("enter rows: "))
-colums = int(input("enter rows: "))
-symbol = input("Enter a symbol to use: ")
+# x = 1
+# dic = {"a":"0", "b":x}
+# print(dic)
 
-for i in range(rows):
-    for j in range(colums):
-        print(symbol, end="")
-    print()
+# dic1 = {"1":"apple", "2":"orange"}
+# dic2 = {"3":"peach"}
+# dic1.update(dic2)
+# print(dic1)
+
+#progate
+
+# カート内の商品の有無に合わせてメッセージを返す処理を作成してください
+def judge_items():
+    if
+
+# ここから下は触らないでください
+# 利用するデータ
+cart_items = [
+    {'name': 'Tシャツ', 'type': 'clothes', 'price': 2000},
+    {'name': 'キャップ', 'type': 'cap', 'price': 8000}
+]
+# 関数の呼び出し
+message = get_cart_message(cart_items)
+print('入力1：カートに商品がある場合')
+print(message)
+
+print('-----------------------------')
+
+# 利用するデータ
+cart_items = []
+# 関数の呼び出し
+message = get_cart_message(cart_items)
+print('入力2：カートに商品がない場合')
+print(message)
+
 
 
 

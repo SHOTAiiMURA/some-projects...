@@ -17,93 +17,7 @@
             "size": "xl"
           },
           {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [],
-                "height": "1px",
-                "backgroundColor": "#aaaaaa",
-                "offsetTop": "7px"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [],
-                "backgroundColor": "#00c300",
-                "height": "3px",
-                "width": "80%",
-                "position": "absolute",
-                "offsetTop": "6px"
-              },
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "10px",
-                    "height": "10px",
-                    "backgroundColor": "#00c300",
-                    "cornerRadius": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "10px",
-                    "height": "10px",
-                    "backgroundColor": "#00c300",
-                    "cornerRadius": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "10px",
-                    "height": "10px",
-                    "backgroundColor": "#00c300",
-                    "cornerRadius": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "10px",
-                    "height": "10px",
-                    "backgroundColor": "#00c300",
-                    "cornerRadius": "5px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "14px",
-                    "height": "14px",
-                    "backgroundColor": "#00e600",
-                    "cornerRadius": "7px"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [],
-                    "width": "10px",
-                    "height": "10px",
-                    "backgroundColor": "#aaaaaa",
-                    "cornerRadius": "5px"
-                  }
-                ],
-                "position": "absolute",
-                "width": "100%",
-                "justifyContent": "space-between",
-                "alignItems": "center"
-              }
-            ],
-            "height": "14px"
+            "type": "separator"
           }
         ],
         "spacing": "lg"
@@ -116,8 +30,7 @@
             "type": "text",
             "text": "Type task name below",
             "size": "xl",
-            "color": "#555555",
-            "wrap": true
+            "color": "#555555"
           },
           {
             "type": "text",
@@ -137,8 +50,7 @@
       {
         "type": "text",
         "text": "Input with Keyboard",
-        "color": "#aaaaaa",
-        "wrap": true
+        "color": "#aaaaaa"
       }
     ],
     "justifyContent": "center",
