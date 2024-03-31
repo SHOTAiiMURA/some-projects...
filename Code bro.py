@@ -160,7 +160,14 @@ def get_cart_message(cart_items):
         return 'カートに商品がありません。お買い物をお楽しみください。'
     else:
         return '購入手続きを進めるか、引き続きお買い物をお楽しみください。'
-
+# 購入金額に対する付与ポイントを返す処理を作成してください
+def calculate_points(total_price,user):
+    if cart_items['user_id'] == 1:
+        points_member = total_price * 0.01
+        print(round(points_member))
+    elif cart_items['user_id'] == 2:
+        points_premium == total_price * 0.02
+        print(round(points_premium))
 # ここから下は触らないでください
 # 利用するデータ
 cart_items = [
