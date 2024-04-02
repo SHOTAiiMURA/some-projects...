@@ -30,8 +30,7 @@
             "type": "text",
             "text": "Choose Task Type",
             "size": "xl",
-            "color": "#555555",
-            "wrap": true
+            "color": "#555555"
           }
         ],
         "spacing": "md"
