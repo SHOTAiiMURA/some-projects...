@@ -116,7 +116,7 @@ def insert_course_DB(conn, force=False):
         # Start updating club information data
         print("Start updating course information")
         query_semester = """
-        INSERT IGNORE INTO Semester (
+        INSERT IGNORE INTO Semestzer (
             semester, year, season, created)
         VALUES (%s, %s, %s, CURDATE())"""
 

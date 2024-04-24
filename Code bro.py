@@ -154,39 +154,6 @@ import time
 
 #progate
 
-# カート内の商品の有無に合わせてメッセージを返す処理を作成してください
-def get_cart_message(cart_items):
-    if len(cart_items)== 0:
-        return 'カートに商品がありません。お買い物をお楽しみください。'
-    else:
-        return '購入手続きを進めるか、引き続きお買い物をお楽しみください。'
-# 購入金額に対する付与ポイントを返す処理を作成してください
-def calculate_points(total_price,user):
-    if cart_items['user_id'] == 1:
-        points_member = total_price * 0.01
-        print(round(points_member))
-    elif cart_items['user_id'] == 2:
-        points_premium == total_price * 0.02
-        print(round(points_premium))
-# ここから下は触らないでください
-# 利用するデータ
-cart_items = [
-    {'name': 'Tシャツ', 'type': 'clothes', 'price': 2000},
-    {'name': 'キャップ', 'type': 'cap', 'price': 8000}
-]
-# 関数の呼び出し
-message = get_cart_message(cart_items)
-print('入力1：カートに商品がある場合')
-print(message)
-
-print('-----------------------------')
-
-# 利用するデータ
-cart_items = []
-# 関数の呼び出し
-message = get_cart_message(cart_items)
-print('入力2：カートに商品がない場合')
-print(message)
 
 
 
